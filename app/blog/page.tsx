@@ -9,7 +9,7 @@ interface Post {
 
 async function getData() {
   const response = await fetch(
-    "https://jsonplaceholder.typicode.com/postsxcxcxc",
+    "https://jsonplaceholder.typicode.com/posts",
     {
       next: {
         revalidate: 60,
